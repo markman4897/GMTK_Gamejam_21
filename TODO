@@ -1,0 +1,6 @@
+- add Rope rigid body i think...
+- make it attach to two Balls
+- make it so it limits the Balls movement or rather moves the 2nd ball if its tight
+- add singleton for SPD
+- rename SPD to Spd
+- make it so if the Rope is tight, Spd gets halved or worse
