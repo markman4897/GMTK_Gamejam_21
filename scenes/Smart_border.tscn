@@ -3,13 +3,15 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 100, 100 )
 
-[node name="Border" type="Node2D"]
+[node name="Smart_border" type="Node2D" groups=[
+"smart_border",
+]]
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_right = 200.0
 margin_bottom = 200.0
 mouse_filter = 2
-color = Color( 0.12549, 0.631373, 0.968627, 1 )
+color = Color( 0.956863, 0.447059, 0.901961, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }

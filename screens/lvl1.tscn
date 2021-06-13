@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scenes/Goal.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Border.tscn" type="PackedScene" id=4]
+
+[node name="main" type="Node2D"]
+
+[node name="bg" type="ColorRect" parent="."]
+margin_left = 4.48999
+margin_top = -4.48975
+margin_right = 1084.49
+margin_bottom = 2335.51
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="borders" type="Node" parent="."]
+
+[node name="Border" parent="borders" instance=ExtResource( 4 )]
+position = Vector2( -89.7969, -31.4288 )
+scale = Vector2( 1, 12 )
+
+[node name="Border4" parent="borders" instance=ExtResource( 4 )]
+position = Vector2( 983.275, -35.9188 )
+scale = Vector2( 1, 12 )
+
+[node name="Border3" parent="borders" instance=ExtResource( 4 )]
+position = Vector2( 8.98096, -139.185 )
+scale = Vector2( 5.247, 1 )
+
+[node name="Border5" parent="borders" instance=ExtResource( 4 )]
+position = Vector2( 53.8794, 2267.37 )
+scale = Vector2( 5.247, 1 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 507.352, 350.208 )
+
+[node name="Goals" type="Node" parent="."]
+
+[node name="Goal" parent="Goals" instance=ExtResource( 1 )]
+position = Vector2( 786.121, 2072.35 )
+
+[node name="Goal2" parent="Goals" instance=ExtResource( 1 )]
+position = Vector2( 108.155, 2063.37 )
