@@ -7,11 +7,12 @@ colors = PoolColorArray( 0.582031, 0.582031, 0.582031, 1, 0.617188, 0.617188, 0.
 [sub_resource type="GradientTexture" id=3]
 gradient = SubResource( 2 )
 
-[sub_resource type="CircleShape2D" id=1]
+[sub_resource type="CircleShape2D" id=4]
 radius = 48.8129
 
 [node name="Loop" type="RigidBody2D"]
 gravity_scale = 0.0
+linear_damp = 4.0
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
 position = Vector2( 9, -12 )
@@ -23,4 +24,4 @@ polygon = PoolVector2Array( -71.7604, -36.5114, 13.0923, -47.8251, 56.933, -5.39
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
-shape = SubResource( 1 )
+shape = SubResource( 4 )

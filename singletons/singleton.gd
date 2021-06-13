@@ -5,7 +5,9 @@ var lvl1 = preload("res://screens/lvl1.tscn")
 var lvl2 = preload("res://screens/lvl2.tscn")
 var lvl3 = preload("res://screens/lvl3.tscn")
 var lvl4 = preload("res://screens/lvl4.tscn")
-var scenes = [lvl1, lvl2, lvl3, lvl4]
+var lvl5 = preload("res://screens/lvl5.tscn")
+var lvl6 = preload("res://screens/lvl6.tscn")
+var scenes = [lvl1, lvl2, lvl3, lvl4, lvl5, lvl6]
 
 func goals_cleared() -> void:
 	get_tree().change_scene_to(menu)

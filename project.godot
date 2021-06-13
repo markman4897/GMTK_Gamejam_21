@@ -21,6 +21,7 @@ config/icon="res://icon.png"
 [autoload]
 
 Singleton="*res://singletons/singleton.gd"
+Audio="*res://singletons/Audio.tscn"
 
 [display]
 

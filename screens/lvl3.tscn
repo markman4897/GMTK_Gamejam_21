@@ -42,10 +42,10 @@ position = Vector2( 516.332, 538.781 )
 [node name="Goals" type="Node" parent="."]
 
 [node name="Goal" parent="Goals" instance=ExtResource( 3 )]
-position = Vector2( 112.645, 1551.53 )
+position = Vector2( 110.645, 1549.53 )
 
 [node name="Goal2" parent="Goals" instance=ExtResource( 3 )]
-position = Vector2( 112.645, 1147.44 )
+position = Vector2( 110.645, 1149.44 )
 
 [node name="Trigger" parent="." instance=ExtResource( 5 )]
 position = Vector2( 453.874, 1156.42 )

@@ -48,16 +48,16 @@ position = Vector2( 516.332, 538.781 )
 [node name="Goals" type="Node" parent="."]
 
 [node name="Goal" parent="Goals" instance=ExtResource( 3 )]
-position = Vector2( 166.523, 774.785 )
+position = Vector2( 176.999, 768.369 )
 
 [node name="Goal2" parent="Goals" instance=ExtResource( 3 )]
-position = Vector2( 148.564, 1520.1 )
+position = Vector2( 175.051, 1519.04 )
 
 [node name="Goal3" parent="Goals" instance=ExtResource( 3 )]
-position = Vector2( 736.733, 765.805 )
+position = Vector2( 716.603, 767.924 )
 
 [node name="Goal4" parent="Goals" instance=ExtResource( 3 )]
-position = Vector2( 745.713, 1529.08 )
+position = Vector2( 716.048, 1521.66 )
 
 [node name="Trigger" parent="." instance=ExtResource( 5 )]
 position = Vector2( 448.65, 328.731 )

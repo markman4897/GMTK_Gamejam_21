@@ -40,7 +40,7 @@ position = Vector2( 507.352, 350.208 )
 [node name="Goals" type="Node" parent="."]
 
 [node name="Goal" parent="Goals" instance=ExtResource( 1 )]
-position = Vector2( 786.121, 2072.35 )
+position = Vector2( 783.786, 2067.34 )
 
 [node name="Goal2" parent="Goals" instance=ExtResource( 1 )]
-position = Vector2( 108.155, 2063.37 )
+position = Vector2( 110.155, 2067.37 )

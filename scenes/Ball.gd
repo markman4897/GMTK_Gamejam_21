@@ -6,13 +6,9 @@ const SPD := 10
 var mouse_in_ball := false
 var moving := false
 
-func _ready():
-	self.gravity_scale = 0
-	self.linear_damp = 10
-
 func _input(event) -> void:
 	# if mouse down run move func  
-	if (Input.is_action_pressed("left_click") and (event is InputEventMouseButton or InputEventMouseMotion)) and (moving or mouse_in_ball):
+	if (Input.is_action_pressed("left_click") and (event is InputEventMouseButton or InputEventMouseMotion or InputEventScreenTouch or InputEventScreenDrag)) and (moving or mouse_in_ball):
 		moving = true
 		pos = event.position
 		self.linear_velocity = (pos - self.global_position) * 10
