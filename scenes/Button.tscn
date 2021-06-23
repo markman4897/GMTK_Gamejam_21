@@ -1,20 +1,16 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://assets/fonts/m6x11.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://scenes/Button.gd" type="Script" id=2]
-
-[sub_resource type="StyleBoxEmpty" id=2]
-
-[sub_resource type="StyleBoxEmpty" id=3]
-
-[sub_resource type="StyleBoxEmpty" id=4]
-
-[sub_resource type="StyleBoxEmpty" id=7]
-
-[sub_resource type="StyleBoxEmpty" id=6]
+[ext_resource path="res://resources/btn_style.tres" type="StyleBox" id=3]
 
 [sub_resource type="DynamicFont" id=1]
-size = 250
+size = 200
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 150
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 1 )
 
@@ -23,17 +19,27 @@ margin_right = 180.0
 margin_bottom = 240.0
 rect_min_size = Vector2( 180, 240 )
 size_flags_horizontal = 3
-custom_styles/hover = SubResource( 2 )
-custom_styles/pressed = SubResource( 3 )
-custom_styles/focus = SubResource( 4 )
-custom_styles/disabled = SubResource( 7 )
-custom_styles/normal = SubResource( 6 )
+custom_styles/hover = ExtResource( 3 )
+custom_styles/pressed = ExtResource( 3 )
+custom_styles/normal = ExtResource( 3 )
 custom_fonts/font = SubResource( 1 )
-custom_colors/font_color = Color( 0.439216, 0.439216, 0.439216, 1 )
-custom_colors/font_color_hover = Color( 0.580392, 0.580392, 0.580392, 1 )
-text = "X"
-flat = true
+custom_colors/font_color = Color( 0.12549, 0.631373, 0.968627, 1 )
+custom_colors/font_color_hover = Color( 0.12549, 0.631373, 0.968627, 1 )
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 19.1119
+margin_top = 14.0488
+margin_right = 199.112
+margin_bottom = 254.049
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "00"
+align = 1
+valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }

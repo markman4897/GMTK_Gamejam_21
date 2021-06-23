@@ -14,6 +14,8 @@ https://user-images.githubusercontent.com/8660220/121975965-2334ba00-cd83-11eb-9
 
 - fix ball movement system so it doesn't glitch out on PC or phone
 
+- figure out centering of text on button somehow (maybe the font is shit or something -..-)
+
 ### Tasks:
 
 - make player spawn into level about 1s after it loads somehow
@@ -24,7 +26,10 @@ https://user-images.githubusercontent.com/8660220/121975965-2334ba00-cd83-11eb-9
 - maybe make it so that you get to next level if you complete it
 - lock levels until you complete one before it (test the web version!)
 - more music, one for the menu, and more than one for different levels
-- support multi touch?
+- support multi touch? maybe no...
+- support color theme switching somehow (reserch that) (maybe use "theme" yeah?)
+  - figure out how to call color switch func on every item on screen somehow (maybe add them to a group or something)
+  - figure out how to make the TileSet and Sprite things so you can change colors on the fly, maybe vector graphics instead or made with shapes within godot?
 
 ### Plans:
 

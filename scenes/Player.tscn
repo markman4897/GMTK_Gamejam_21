@@ -7,7 +7,7 @@
 position = Vector2( 8.47571, 1.05948 )
 
 [node name="Ball" parent="." instance=ExtResource( 1 )]
-position = Vector2( -150.232, -96.972 )
+position = Vector2( -140.697, -101.21 )
 
 [node name="PinJoint2D" type="PinJoint2D" parent="."]
 position = Vector2( -68.2504, -134.356 )
@@ -68,4 +68,4 @@ node_a = NodePath("../Loop6")
 node_b = NodePath("../Ball2")
 
 [node name="Ball2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 110.465, 116.25 )
+position = Vector2( 103.049, 119.428 )
